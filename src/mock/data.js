@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile.JPG',
   paragraphOne: 'I am a junior at Vanderbilt University majoring in computer science with a minor in engineering management.',
   paragraphTwo: 
   'Over the summer, I taught kids ages 8-18 fundamental programming concepts and problem-solving skills through a remote tutoring company called Juni Learning. ',
