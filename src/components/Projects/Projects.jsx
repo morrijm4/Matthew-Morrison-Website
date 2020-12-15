@@ -53,6 +53,7 @@ const Projects = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
+                        type="text/html"
                         href={url || '#!'}
                       >
                         See Live

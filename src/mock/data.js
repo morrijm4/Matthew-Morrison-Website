@@ -11,7 +11,8 @@ export const headData = {
 export const heroData = {
   title: 'Hi, my name is ',
   name: 'Matthew Morrison',
-  subtitle: ' ',
+  subtitle: 'I am a computer science major at',
+  school: 'Vanderbilt University',
   cta: 'Learn more',
 };
 
@@ -22,7 +23,7 @@ export const aboutData = {
   paragraphTwo: 
   'Over the summer, I taught kids ages 8-18 fundamental programming concepts and problem-solving skills through a remote tutoring company called Juni Learning. ',
   paragraphThree: 'In my free time I love to play golf, jam out on my guitar, and go on long distance runs.',
-  paragraphFour: 'Languages: C++, Python, Java, JavaSript/HTML/CSS',
+  paragraphFour: 'Programming Languages: C++, Python, Java, JavaSript/HTML/CSS',
   resume: 'https://drive.google.com/file/d/1sw_j-wB1lXDTSMlIU9FBsuphv_wJq8rU/view?usp=sharing', // if no resume, the button will not show up
 };
 
