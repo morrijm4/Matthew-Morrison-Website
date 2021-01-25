@@ -37,7 +37,7 @@ const Projects = () => {
                     left={isDesktop}
                     bottom={isMobile}
                     duration={1000}
-                    delay={500}
+                    delay={10}
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
@@ -49,7 +49,7 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
+                      {/* <a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
@@ -57,13 +57,13 @@ const Projects = () => {
                         href={url || '#!'}
                       >
                         See Live
-                      </a>
+                      </a> */}
 
                       {repo && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
+                          className="cta-btn cta-btn--hero"
                           href={repo}
                         >
                           Source Code
@@ -77,7 +77,7 @@ const Projects = () => {
                     right={isDesktop}
                     bottom={isMobile}
                     duration={1000}
-                    delay={1000}
+                    delay={100}
                     distance="30px"
                   >
                     <div className="project-wrapper__image">

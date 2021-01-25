@@ -31,30 +31,30 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'calculator.png',
+    title: 'Calculator',
+    info: 'This was my first project I have build from scratch using HTML, CSS, and JavaScript. It taught me the basics of how to design a website and how to make it dynamic with JavaScript.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://github.com/morrijm4/Calculator',
+    repo: 'https://github.com/morrijm4/Calculator', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'mini-game.png',
+    title: 'Tweet Gusser Mini-Game',
+    info: 'This is a game where you have to guess whether a tweet was tweeted by Elon Musk or Kanye West.',
+    info2: 'It was written 100% in Python using the tweepy library to access the Twitter API. This project was a coding challenge to join Change++, a student run organization that designs and builds applications for non-profit organizations.',
+    url: 'https://github.com/morrijm4/change-coding-challenge-morrijm4',
+    repo: 'https://github.com/morrijm4/change-coding-challenge-morrijm4', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'sudoku-solver.png',
+    title: 'Sudoku Solver',
+    info: 'Recursive backtracking algorithm that can solve a sudoku puzzle with an average time of 0.001567 seconds. This program was written in C++.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://github.com/morrijm4/Sudoku-Solver',
+    repo: 'https://github.com/morrijm4/Sudoku-Solver', // if no repo, the button will not show up
   },
 ];
 
