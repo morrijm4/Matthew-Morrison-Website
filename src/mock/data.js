@@ -24,7 +24,7 @@ export const aboutData = {
   'Over the summer, I taught kids ages 8-18 fundamental programming concepts and problem-solving skills through a remote tutoring company called Juni Learning. ',
   paragraphThree: 'In my free time I love to play golf, jam out on my guitar, and go on long distance runs.',
   paragraphFour: 'Programming Languages: C++, Python, Java, JavaSript/HTML/CSS',
-  resume: 'https://drive.google.com/file/d/1sw_j-wB1lXDTSMlIU9FBsuphv_wJq8rU/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1rt9CS0Qc-TekFXaSSX85dUjjb1xUvC_k/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
