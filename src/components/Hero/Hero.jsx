@@ -26,10 +26,10 @@ const Header = () => {
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={10} distance="30px">
           <h1 className="hero-title">
-            {title || 'Hi, my name is'}{' '}
-            <span className="text-color-main">{name || 'Your Name'}</span>
+            {title}{' '}
+            <span className="text-color-main">{name}</span>
             <br />
-            {subtitle || "I'm the Unknown Developer."}{' '}
+            {subtitle}{' '}
             <span className="text-color-main">{school}</span>
           </h1>
         </Fade>
@@ -37,7 +37,7 @@ const Header = () => {
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
-                {cta || 'Know more'}
+                {cta}
               </Link>
             </span>
           </p>
