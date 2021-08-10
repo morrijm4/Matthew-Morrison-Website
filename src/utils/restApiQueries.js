@@ -1,7 +1,9 @@
+import URL from "../constants";
+
 export async function fetchData(playlistId, setItems, setLoading, setIsSearch) {
-  const URL = `https://hello.loca.lt/playlist/${playlistId}/`;
+  const req = URL + `${playlistId}/`;
   try {
-    const res = await fetch(URL, { method: "get" });
+    const res = await fetch(req, { method: "get" });
     const data = await res.json();
     console.log(data);
 
