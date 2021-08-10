@@ -1,7 +1,7 @@
 export async function fetchData(playlistId, setItems, setLoading, setIsSearch) {
-  const URL = `http://108.79.233.171:4000/playlist/${playlistId}/`;
+  const URL = `https://108.79.233.171:4000/playlist/${playlistId}/`;
   try {
-    const res = await fetch(URL, { method: 'get' });
+    const res = await fetch(URL, { method: "get" });
     const data = await res.json();
     console.log(data);
 
