@@ -1,5 +1,5 @@
 export async function fetchData(playlistId, setItems, setLoading, setIsSearch) {
-  const URL = `https://108.79.233.171:4000/playlist/${playlistId}/`;
+  const URL = `https://hello.loca.lt/playlist/${playlistId}/`;
   try {
     const res = await fetch(URL, { method: "get" });
     const data = await res.json();
