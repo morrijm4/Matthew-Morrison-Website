@@ -1,9 +1,7 @@
-import URL from "../constants";
-
 export async function fetchData(playlistId, setItems, setLoading, setIsSearch) {
-  const req = URL + `playlist/${playlistId}/`;
+  const req = `https://matthewmorrison-server.website/playlist/${playlistId}/`;
   try {
-    const res = await fetch(req, { method: "get" });
+    const res = await fetch(req);
     const data = await res.json();
     console.log(data);
 
