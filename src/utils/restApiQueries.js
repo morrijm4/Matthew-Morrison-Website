@@ -1,7 +1,7 @@
 import URL from "../constants";
 
 export async function fetchData(playlistId, setItems, setLoading, setIsSearch) {
-  const req = URL + `${playlistId}/`;
+  const req = URL + `playlist/${playlistId}/`;
   try {
     const res = await fetch(req, { method: "get" });
     const data = await res.json();
