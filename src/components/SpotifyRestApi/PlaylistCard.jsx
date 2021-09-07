@@ -1,7 +1,7 @@
-import React from 'react';
-import { Image, Box, Heading, Flex, Text } from '@chakra-ui/react';
+import React from "react";
+import { Image, Box, Heading, Flex, Text } from "@chakra-ui/react";
 
-const PlaylistCard = props => {
+const PlaylistCard = (props) => {
   return (
     <Flex
       m="auto"
@@ -9,7 +9,7 @@ const PlaylistCard = props => {
       w="800px"
       maxW="800px"
       maxH="182px"
-      bgColor="gray"
+      bgColor="gray.200"
       p={4}
       borderRadius={10}
     >
