@@ -35,6 +35,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: "song-popularity-quiz.png",
+    title: "Song Popularity Quiz",
+    info: "This is a quiz mini-game where the user has to rank the popularity of a list of songs based on Billboard's Hot 100 list.",
+    info2:
+      "The frontend is deployed with Netlify and the backend is deployed with Digital Ocean.",
+    url: "https://gracious-kilby-03caf6.netlify.app", //'https://matthewmorrison-portfolio.com/SpotifyRestApi',
+    repo: "https://github.com/ChangePlusPlusVandy/change-coding-challenge-2021-morrijm4", // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: "spotify-rest-api.png",
     title: "Spotify Rest Api",
     info: "This project I played around with the spotify rest api and created a backend server hosted by Digital Ocean",
